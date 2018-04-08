@@ -1,0 +1,25 @@
+<resources>
+    
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_small_1">4dp</dimen>
+    <dimen name="padding_medium_smaller">6dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_largest">25dp</dimen>
+
+    <!-- add for app widget -->
+    <dimen name="widget_margin">10dip</dimen>
+
+    <dimen name="widget_margin_text">20dp</dimen>
+    <dimen name="small_margin_text_size">5dp</dimen>
+    <dimen name="middle_margin_text_size">15dp</dimen>
+    <dimen name="widget_small_text_size_1">15sp</dimen>
+    <dimen name="widget_small_text_size">22sp</dimen>
+    <dimen name="widget_middle_text_size">30sp</dimen>
+    <dimen name="widget_lager_text_size">45sp</dimen>
+    <dimen name="middle_text_size">21sp</dimen>
+    
+    <dimen name="text_size_city">28sp</dimen>
+    <dimen name="text_size_calendar">25sp</dimen>
+    <dimen name="text_size_weather_info">18sp</dimen>
+</resources>

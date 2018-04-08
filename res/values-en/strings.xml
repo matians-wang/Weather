@@ -1,0 +1,67 @@
+<resources>
+
+    <!--
+         <string name="app_name">CarWeather</string>
+    <string name="progress_dialog_msg">Loading&#8230;</string>
+    <string name="alert_dialog_ok">Confirm</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="after_tomorrow">After_Tomorrow</string>
+    <string name="suffix">City</string>
+    <string name="week_prefix">Week</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="sundown">Sundown:</string>
+    <string name="windspeed">Windspeed:</string>
+    <string name="rh">Humidity:</string>
+    <string name="temp_short">&#176;</string>
+    <string name="temp_full">&#176;C</string>
+    <string name="alert_weather">Weather Alert</string>
+    <string name="setting">Setting</string>
+    <string name="last_update_time">Last Update Time:</string>
+    <string name="card_edit">Edit</string>
+    <string name="edit_complete">Complete</string>
+    <string name="empty_message_hint">Fail to load</string>
+    <string name="search_hint">Please input city name</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_result_title">Search Result</string>
+    <string name="search_hint_searching">searching…</string>
+    <string name="search_hint_empty">No Result</string>
+    <string name="alarm_title_defence">Defence</string>
+    <string name="widget_index_air">Air Index:</string>
+    <string name="widget_hint_empty">Weather</string>
+    <string name="widget_tomorrow">Tomorrow</string>
+    <string name="widget_the_day_after_tomorrow">The day after tomorrow</string>
+    <string name="index_air">Air Index:</string>
+    <string name="index_allergy">Allergy Index:</string>
+    <string name="index_date">Date Index:</string>
+    <string name="index_umbrella">Umbrella Index:</string>
+    <string name="index_cold">Cold Index:</string>
+    <string name="index_traffic">Traffic Index:</string>
+    <string name="index_washcar">Washcar Index:</string>
+    <string name="index_ultravioletray">Ultravioletray Index:</string>
+    <string name="prompt_delete">Are you sure to delete</string>
+    <string name="prompt_max_city">City number has reached the limit</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="locate_fail">Fail to locate</string>
+    <string name="query_hint">Please input city name</string>
+    -->
+
+    <string name="default_weather_info">WX</string>
+    <string name="widget_no_network">No Network</string>
+    <string name="widget_no_network_reminder">Check the network</string>
+    <string name="alert_title_net">Network Requirements</string>
+    <string name="alert_msg_net">Click \"Network Settings\" to connect \nwifi or mobile hotspot</string>
+    <string name="alert_dialog_cancel_net">Cancel</string>
+    <string name="alert_dialog_ok_net">Network Settings</string>
+
+</resources>

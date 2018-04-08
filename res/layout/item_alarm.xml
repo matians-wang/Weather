@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alarm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/alarm_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <!--
+         <TextView
+        android:id="@+id/defence_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/alarm_title_defence"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/defence_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+    -->
+
+</LinearLayout>

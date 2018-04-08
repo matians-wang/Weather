@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">车载天气</string>
+    <string name="default_weather_info">天气</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置天气自动更新时间间隔</string>
+    <string name="menu_update_city">加载城市列表</string>
+    <string name="menu_select_cities">选择城市</string>
+    <string name="menu_change_city">更换城市</string>
+    <string name="menu_update_weather">更新天气信息</string>
+    <string name="menu_update_all_weather">更新所有天气信息</string>
+    <string name="context_menu_title">选项（%s）</string>
+    <string name="title_activity_weather">车载天气</string>
+    <string name="dialog_title_update_rate">请选择更新天气信息频率</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="loading">加载中…</string>
+    <string name="alert_title_net">网络需求</string>
+    <string name="alert_msg_net">点击 “网络设置” 连接周围wifi或者手机热点</string>
+    <string name="alert_dialog_ok_net">网络设置</string>
+
+    <!-- add for app widget -->
+    <string name="weather_icon_discription">show weather icon</string>
+
+    <!-- default values for widget -->
+    <string name="first_widget_info">请点击选择城市</string>
+    <string name="init_widget_info">GPS 正在定位中&#8230;</string>
+    <string name="update_widget_info_after_gps">正在加载界面&#8230;</string>
+    <!-- toast info -->
+    <string name="network_error">无法连接网络，请查看网络设置</string>
+    <string name="req_error">天气信息获取失败</string>
+    <string name="weather_update_success">天气更新成功</string>
+    <string name="locate_error">本地信息获取错误</string>
+    <string name="locate_city_name_error">本地信息错误，城市名称为空！\n请重新选择城市进行更新。</string>
+    <string name="weather_release_time">发布</string>
+
+    <!-- week info for activity -->
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="after_tomorrow">后天</string>
+    <string name="select_city">选择城市</string>
+    <string name="no_letter_start">没有 %1$s 开头的城市</string>
+    <string name="progress_dialog_msg">城市正在加载中&#8230;</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="req_error_tip">城市列表获取失败！请点击菜单选项，重新加载城市列表。</string>
+    <string name="default_city">北京</string>
+    <string name="obtain_data_failed">因网络原因获取城市列表失败，是否重新获取？</string>
+    <string name="select_city_first">请先选择城市</string>
+    <string name="city_list_empty">城市列表为空</string>
+    <string name="txt_load_city_failed">城市列表加载失败，请重新加载！</string>
+    <string name="city_title">城市选择</string>
+    <string name="toast_over_city">您最多选择(%d)个城市！</string>
+    <string name="toast_at_least_one_city">请至少选择一个城市！</string>
+    <string name="txt_load_failed">天气信息加载失败\n请点击重新加载&#8230;</string>
+    <string name="txt_loading">正在加载天气信息&#8230;</string>
+    <string name="txt_no_data">暂无数据</string>
+    <string name="txt_local_suffix">(本地)</string>
+    <string name="progress_dialog_weather">正在更新天气信息&#8230;</string>
+    <string name="suffix">市</string>
+    <string name="week_prefix">星期</string>
+    <string name="sunrise">日出：</string>
+    <string name="sundown">日落：</string>
+    <string name="windspeed">风速：</string>
+    <string name="rh">湿度：</string>
+    <string name="temp_short">&#176;</string>
+    <string name="temp_full">&#176;C</string>
+    <string name="alert_weather">天气预警</string>
+    <string name="setting">设置</string>
+    <string name="last_update_time">上次更新时间：</string>
+    <string name="card_edit">编辑</string>
+    <string name="edit_complete">完成</string>
+    <string name="empty_message_hint">加载失败</string>
+    <string name="search_hint">请输入城市名</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_result_title">搜索结果</string>
+    <string name="search_hint_searching">正在验证城市…</string>
+    <string name="search_hint_empty">未找到相应结果</string>
+    <string name="alarm_title_defence">防御指南</string>
+    <string name="widget_index_air">空气指数:</string>
+    <string name="widget_hint_empty">吉利天气</string>
+    <string name="widget_no_network">无网络</string>
+    <string name="widget_no_network_reminder">请检查您的网络设置</string>
+    <string name="widget_tomorrow">明天</string>
+    <string name="widget_the_day_after_tomorrow">后天</string>
+    <string name="index_air">空气指数：</string>
+    <string name="index_allergy">过敏指数：</string>
+    <string name="index_date">约会指数：</string>
+    <string name="index_umbrella">雨伞指数：</string>
+    <string name="index_cold">感冒指数：</string>
+    <string name="index_traffic">交通指数：</string>
+    <string name="index_washcar">洗车指数：</string>
+    <string name="index_ultravioletray">紫外线指数：</string>
+    <string name="text_delete">删除</string>
+    <string name="prompt_delete">要删除</string>
+    <string name="prompt_max_city">添加城市已达上限</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="locate_fail">定位失败</string>
+    <string name="query_hint">请输入城市名（中文/拼音）</string>
+
+</resources>

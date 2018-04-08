@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_city"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/weather_more_card"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/city_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/city_card_tempture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/city_card_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="26sp" />
+
+            <!--
+                 <ImageButton
+                android:id="@+id/card_delete"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/manage_delete"
+                android:visibility="gone" />
+            -->
+
+            <TextView
+                android:id="@+id/card_delete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawableTop="@drawable/manage_delete"
+                android:gravity="center"
+                android:text="@string/text_delete"
+                android:textColor="@color/textBlue"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/city_card_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/weather_address_current"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/city_card_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/weather_address_current"
+            android:gravity="center"
+            android:text="@string/empty_message_hint"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_card_state"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal" />
+
+</FrameLayout>
